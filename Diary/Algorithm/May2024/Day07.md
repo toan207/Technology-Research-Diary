@@ -15,6 +15,7 @@ class Solution:
         root.val = doubleIt % 10
         
         return doubleIt // 10
+
     def doubleIt(self, head: Optional[ListNode]) -> Optional[ListNode]:
         res = self.traceback(head)
         if res != 0:
