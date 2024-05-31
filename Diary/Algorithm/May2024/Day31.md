@@ -2,18 +2,20 @@
 
 ```
 class Solution:
-    def countTriplets(self, arr: List[int]) -> int:
-        n = len(arr)
-        prefix = [0] * (n + 1)
-        
-        for i in range(n):
-            prefix[i + 1] = prefix[i] ^ arr[i]
-        
-        count = 0
-        for i in range(n):
-            for k in range(i + 1, n):
-                if prefix[i] == prefix[k + 1]:
-                    count += (k - i)
-        
-        return count
+    def singleNumber(self, nums: List[int]) -> List[int]:
+        xor_sum = 0
+        for num in nums:
+            xor_sum ^= num
+
+        set_bit = xor_sum & -xor_sum
+
+
+        num1, num2 = 0, 0
+        for num in nums:
+            if num & set_bit:
+                num1 ^= num
+            else:
+                num2 ^= num
+
+        return [num1, num2]
 ```
