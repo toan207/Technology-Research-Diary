@@ -49,3 +49,7 @@ Hãy thiết kế hệ thống để chuyển đổi số cho hiệu sách Lucy 
 
 # Use Case
 ![Lucy Book Store Use Case](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/UseCase.png)
+
+# Class Diagram
+![Class Diagram](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/LucyBookstore_ClassDiagram.drawio.png)
+
