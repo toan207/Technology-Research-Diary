@@ -46,6 +46,10 @@ Yêu cầu
 
 Hãy thiết kế hệ thống để chuyển đổi số cho hiệu sách Lucy phù hợp với các yêu cầu trên.
 ```
+# Non Functional Requirement
+- 100,000 sách
+- Hơn 20,000 thành viên
+- Tối đa lên tới hơn 50,000 CCU
 
 # Use Case
 ![Lucy Book Store Use Case](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/UseCase.png)
