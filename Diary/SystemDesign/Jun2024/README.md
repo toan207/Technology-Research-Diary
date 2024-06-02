@@ -53,3 +53,11 @@ Hãy thiết kế hệ thống để chuyển đổi số cho hiệu sách Lucy 
 # Class Diagram
 ![Class Diagram](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/LucyBookstore_ClassDiagram.drawio.png)
 
+# Component Diagram
+![Component Diagram](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/ComponentDiagram.drawio.png)
+
+# Pre-order Book Function
+## Sequence Diagram
+![Sequence Diagram](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/SequenceDiagram.drawio.png)
+## State Diagram
+![State Diagram](https://github.com/toan207/Technology-Research-Diary/blob/main/Diary/SystemDesign/Jun2024/StateDiagram.drawio.png)
