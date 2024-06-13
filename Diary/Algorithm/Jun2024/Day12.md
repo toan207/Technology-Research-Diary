@@ -12,5 +12,4 @@ class Solution:
         for x in range(3):
             nums[count:count+freq[x]] = [x]*freq[x]
             count+= freq[x]
-
 ```
